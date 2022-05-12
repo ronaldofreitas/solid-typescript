@@ -5,3 +5,8 @@ useCases
 regras de negócio
 
 camada de infraestrutura = como a aplicação se comunica com o "mundo externo"
+
+
+repositories = armazena, banco, arquivo
+
+providers = API externa, envio de email, etc
