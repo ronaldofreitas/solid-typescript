@@ -8,7 +8,7 @@ export class MailtrapMailProvider implements IMailProvider {
 
     constructor() {
         this.transporter = nodemailer.createTransport({
-            host: 'smtp://smtp.mailtrap.io',
+            host: 'smtp.mailtrap.io',
             port:2525,
             auth: {
                 user: '076cad5fef3db3',

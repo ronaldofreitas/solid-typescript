@@ -14,7 +14,7 @@ export class CreateUserController {
                 name, email, password
             })
 
-            return response.status(201);
+            return response.status(201).send('criado');
         } catch (error: any) {
             return response.status(400).json({
                 message: error.message || "Erro inesperado"

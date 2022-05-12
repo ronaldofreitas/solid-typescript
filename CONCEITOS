@@ -10,3 +10,6 @@ camada de infraestrutura = como a aplicação se comunica com o "mundo externo"
 repositories = armazena, banco, arquivo
 
 providers = API externa, envio de email, etc
+
+
+DESCONECTOU MUITO A CAMADA DE INFRA DA CAMADA DE DOMÍNIO, FUNCIONAL

@@ -1,7 +1,7 @@
 /*
 equivalente a 'models', mas as "entidades" não necessariamente representam tabelas de banco
 */
-import { uuid } from "uuidv4";
+import { v4 } from "uuid";
 
 export class User {
     
@@ -20,7 +20,7 @@ export class User {
         if(!id){
             // caso precise mudar de banco de dados algum dia... os IDs não estão atrelados ao banco antigo
             // não usar no banco o autoincrement ou algo semelhante
-            this.id = uuid();
+            this.id = v4();
         }
     }
 }
