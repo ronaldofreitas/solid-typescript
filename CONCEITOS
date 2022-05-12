@@ -1,0 +1,7 @@
+repositories
+são classes especificas pra gente fazer a comunicação entre a aplicação e o banco de dados
+
+useCases
+regras de negócio
+
+camada de infraestrutura = como a aplicação se comunica com o "mundo externo"
